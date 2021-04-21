@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Huddle landing page with curved sections</title>
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- my stylesheet -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="./images/logo.svg"
+        alt="huddle logo"
+        class="logo header--logo"
+      />
+
+      <button class="btn header--btn">Try it free</button>
+    </header>
+
+    <main class="main">
+      <section class="banner sections">
+        <div class="banner__text">
+          <h1 class="heading banner--heading">
+            Build The Community Your Fans Will Love
+          </h1>
+          <p class="paragraph banner--paragraph">
+            Huddle re-imagines the way we build communities. You have a voice,
+            but so does your audience. Create connections with your users as you
+            engage in genuine discussion.
+          </p>
+        </div>
+        <div class="banner__btn">
+          <button class="btn banner--btn btn--pink">
+            Get Started For Free
+          </button>
+        </div>
+        <img
+          src="./images/screen-mockups.svg"
+          alt="picture of screen mockups"
+          class="img banner--img"
+        />
+      </section>
+
+      <section class="stats sections">
+        <div class="stat">
+          <h2 class="heading stat--heading heading--communities">1.4k+</h2>
+          <span class="stat--span">Communities Formed</span>
+        </div>
+        <div class="stat">
+          <h2 class="heading stat--heading heading--messages">2.7m+</h2>
+          <span class="stat--span">Messages Sent</span>
+        </div>
+      </section>
+
+      <section class="grow sections">
+        <div class="grow__text">
+          <h2 class="heading grow--heading">Grow Together</h2>
+          <p class="paragraph">
+            Generate meaningful discussions with your audience and build a
+            strong, loyal community. Think of the insightful conversations you
+            miss out on with a feedback form.
+          </p>
+        </div>
+        <img
+          src="./images/illustration-grow-together.svg"
+          alt=""
+          class="img grow--img"
+        />
+      </section>
+
+      <section class="flowing sections">
+        <div class="flowing-text">
+          <h2 class="heading flowing--heading">Flowing Conversations</h2>
+          <p class="paragraph">
+            You wouldn't paginate a conversation in real life, so why do it
+            online? Our threads have just-in-time loading for a more natural
+            flow.
+          </p>
+        </div>
+        <img
+          src="./images/illustration-flowing-conversation.svg"
+          alt="illustration of people talking"
+          class="img flowing--img"
+        />
+      </section>
+
+      <section class="users sections">
+        <div class="users__text">
+          <h2 class="heading user--heading">Your Users</h2>
+          <p class="paragraph">
+            It takes no time at all to integrate Huddle with your app's
+            authentication solution. This means, once signed in to your app,
+            your users can start chatting immediately.
+          </p>
+        </div>
+        <img
+          src="./images/illustration-your-users.svg"
+          alt="illustration your users"
+          class="img users--img"
+        />
+      </section>
+
+      <section class="cta sections">
+        <h2 class="heading cta--heading">Ready To Build Your Community?</h2>
+        <button class="btn cta--btn btn--pink">Get Started For Free</button>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="signup">
+        <h3 class="heading signup--heading">Newsletter</h3>
+        <p class="paragraph signup--paragraph">
+          To recieve tips on how to grow your community, sign up to our weekly
+          newsletter. We’ll never send you spam or pass on your email address
+        </p>
+        <div class="signup__container">
+          <input type="email" class="signup__input" />
+          <p class="invaild__email">Check your email please</p>
+          <button class="btn btn--pink btn--signup">Subscribe</button>
+        </div>
+      </div>
+      <div class="contact">
+        <img
+          src="./images/footer-logo.svg"
+          alt="huddle logo "
+          class="footer--logo"
+        />
+        <p class="paragraph contact--paragraph">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla
+          quam, hendrerit lacinia vestibulum a, ultrices quis sem.
+        </p>
+        <ul class="contact__list">
+          <li class="contact__item phone">Phone: +1-543-123-4567</li>
+          <li class="contact__item email">example@huddle.com</li>
+        </ul>
+        <!-- spans for accessibility -->
+        <div class="social">
+          <a href="#" class="social__link">
+            <i class="fab fa-facebook-square social--icon"></i>
+            <span class="hidden">facebook</span>
+          </a>
+          <a href="#" class="social__link">
+            <a href="#" class="social__link">
+              <i class="fab fa-instagram social--icon"></i>
+              <span class="hidden">instagram</span>
+            </a>
+            <i class="fab fa-twitter-square social--icon"></i>
+            <span class="hidden">twitter</span>
+          </a>
+        </div>
+      </div>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
